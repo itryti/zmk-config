@@ -50,14 +50,15 @@
             >;
         };
 
-        left_layer {
+        numpad_layer { // Layer 2
             bindings = <
-            &trans     &kp LBKT   &kp LBRC   &kp RBRC   &trans         &kp CARET  &kp LPAR   &kp RPAR   &kp RBKT   &kp TILDE
-            &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT      &kp ASTRK  &kp MINUS  &kp EQUAL  &kp BSLH   &kp GRAVE
-            &trans     &trans     &trans     &trans     &trans         &kp AMPS   &kp UNDER  &kp PLUS   &kp PIPE   &trans
-                                             &trans     &trans         &trans     &trans
+            &kp EXCL    &kp DQT     &kp HASH     &kp AT_SIGN  &kp PRCNT    /*||*/      &trans      &kp N7      &kp N8      &kp N9      &trans
+            &kp QMARK   &kp DOLLAR  &kp C_VOL_UP &kp C_VOL_DN &trans       /*||*/      &trans      &kp N4      &kp N5      &kp N6      &kp KP_PLUS
+            &trans      &trans      &trans       &kp C_BRI_UP &kp C_BRI_DN /*||*/      &trans      &kp N1      &kp N2      &kp N3      &trans
+                                                 &trans       &trans       /*||*/      &trans      &kp N0
             >;
         };
+
 
         tri_layer {
             bindings = <
