@@ -60,12 +60,12 @@
         };
 
 
-        tri_layer {
+        sym_layer { // Layer 3
             bindings = <
-           &sys_reset  &trans     &trans     &trans    &bt BT_SEL 0    &trans     &trans     &trans     &trans    &sys_reset
-          &bootloader  &trans     &trans     &trans    &bt BT_SEL 1    &trans     &trans     &trans     &trans    &bootloader
-            &trans     &trans     &trans     &bt BT_CLR &bt BT_SEL 2   &trans     &trans     &trans     &trans    &trans
-                                             &trans     &trans         &trans     &trans
+            &kp EXCL    &kp DQT     &kp HASH    &kp AT_SIGN &kp PRCNT   /*||*/      &kp AMPS    &kp KP_SLASH &kp KP_LPAR &kp KP_RPAR &kp LS(N0)
+            &kp QMARK   &kp DOLLAR  &kp PIPE    &kp ra(NUBS) &kp GRAVE  /*||*/      &trans      &kp BSLH    &kp LBRC    &kp RBRC     &kp TILDE
+            &trans      &trans      &trans      &kp DEL     &trans      /*||*/      &kp LT      &kp GT      &kp LBKT    &kp RBKT     &trans
+                                                &trans      &trans      /*||*/      &trans      &trans
             >;
         };
     };
