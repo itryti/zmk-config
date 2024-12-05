@@ -44,18 +44,18 @@
 
         numpad_layer { // Layer 2
             bindings = <
-            &kp EXCL    &kp DQT     &kp HASH    &kp AT_SIGN &kp PRCNT   /*||*/      &trans      &kp N7      &kp N8      &kp N9      &trans
-            &kp QMARK   &kp DOLLAR  &kp C_VOL_UP&kp C_VOL_DN&trans      /*||*/      &trans      &kp N4      &kp N5      &kp N6      &kp KP_PLUS
-            &trans      &trans      &trans      &kp C_BRI_UP&kp C_BRI_DN/*||*/      &trans      &kp N1      &kp N2      &kp N3      &trans
-                                                &trans      &trans      /*||*/      &trans      &kp N0
+            &kp EXCL    &kp DQT     &kp HASH     &kp AT_SIGN  &kp PRCNT    /*||*/      &trans      &kp N7      &kp N8      &kp N9      &trans
+            &kp QMARK   &kp DOLLAR  &kp C_VOL_UP &kp C_VOL_DN &trans       /*||*/      &trans      &kp N4      &kp N5      &kp N6      &kp KP_PLUS
+            &trans      &trans      &trans       &kp C_BRI_UP &kp C_BRI_DN /*||*/      &trans      &kp N1      &kp N2      &kp N3      &trans
+                                                 &trans       &trans       /*||*/      &trans      &kp N0
             >;
         };
 
         sym_layer { // Layer 3
             bindings = <
-            &kp EXCL    &kp DQT     &kp HASH    &kp AT_SIGN &kp PRCNT   /*||*/      &kp AMPS    &kp KP_SLASH&kp KP_LPAR &kp KP_RPAR &kp LS(N0)
-            &kp QMARK   &kp DOLLAR  &kp PIPE    &kp ra(NUBS)&kp GRAVE   /*||*/      &trans      &kp BSLH    &kp LBRC    &kp RBRC    &kp TILDE
-            &trans      &trans      &trans      &kp DEL     &trans      /*||*/      &kp LT      &kp GT      &kp LBKT    &kp RBKT    &trans
+            &kp EXCL    &kp DQT     &kp HASH    &kp AT_SIGN &kp PRCNT   /*||*/      &kp AMPS    &kp KP_SLASH &kp KP_LPAR &kp KP_RPAR &kp LS(N0)
+            &kp QMARK   &kp DOLLAR  &kp PIPE    &kp ra(NUBS) &kp GRAVE  /*||*/      &trans      &kp BSLH    &kp LBRC    &kp RBRC     &kp TILDE
+            &trans      &trans      &trans      &kp DEL     &trans      /*||*/      &kp LT      &kp GT      &kp LBKT    &kp RBKT     &trans
                                                 &trans      &trans      /*||*/      &trans      &trans
             >;
         };
