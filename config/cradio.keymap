@@ -63,7 +63,7 @@
         sym_layer { // Layer 3
             bindings = <
             &kp EXCL    &kp DQT     &kp HASH    &kp AT_SIGN &kp PRCNT   /*||*/      &kp AMPS    &kp KP_SLASH &kp KP_LPAR &kp KP_RPAR &kp LS(N0)
-            &kp QMARK   &kp DOLLAR  &kp PIPE    &kp ra(NUBS) &kp GRAVE  /*||*/      &trans      &kp BSLH    &kp LBRC    &kp RBRC     &kp TILDE
+            &kp QMARK   &kp DOLLAR  &kp PIPE    &kp RA(BSLH) &kp GRAVE  /*||*/      &trans      &kp BSLH    &kp LBRC    &kp RBRC     &kp TILDE
             &trans      &trans      &trans      &kp DEL     &trans      /*||*/      &kp LT      &kp GT      &kp LBKT    &kp RBKT     &trans
                                                 &trans      &trans      /*||*/      &trans      &trans
             >;
