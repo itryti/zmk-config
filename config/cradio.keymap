@@ -120,10 +120,10 @@
 
         specialchars {
             bindings = <
-&kp EXCL      &kp LS(N2)  &kp HASH  &kp RA(N2)  &kp PERCENT    &kp AMPERSAND  &kp LS(SLASH)         &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp LS(N0)
-&kp QUESTION  &kp DOLLAR  &kp PIPE  &kp GRAVE   &trans         &trans         &kp NON_US_BACKSLASH  &kp LEFT_BRACE            &kp RIGHT_BRACE            &kp TILDE
-&trans        &trans      &trans    &trans      &trans         &kp LESS_THAN  &kp GREATER_THAN      &kp LEFT_BRACKET          &kp RIGHT_BRACKET          &trans
-                                    &trans      &trans         &trans         &trans
+&kp EXCL       &kp LS(N2)  &kp HASH  &kp RA(N2)  &kp PERCENT    &kp LS(AMPERSAND)  &kp LS(N7)            &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
+&kp LS(MINUS)  &kp DOLLAR  &kp PIPE  &kp GRAVE   &trans         &trans             &kp NON_US_BACKSLASH  &kp RA(N7)  &kp RA(N0)  &kp TILDE
+&trans         &trans      &trans    &trans      &trans         &kp LESS_THAN      &kp GREATER_THAN      &kp RA(N8)  &kp RA(N9)  &trans
+                                     &trans      &trans         &trans             &trans
             >;
         };
 
