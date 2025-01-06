@@ -95,7 +95,7 @@
             bindings = <
 &kp Q              &kp W           &kp E           &kp R        &kp T            &kp Y      &kp U             &kp I                &kp O                 &kp P
 &ht RIGHT_SHIFT A  &kp S           &kp D           &lt 2 F      &kp G            &kp H      &kp J             &kp K                &kp L                 &lt 4 BSLH
-&mt LCTRL Z        &mt LEFT_WIN X  &mt LEFT_ALT C  &lt 5 V      &kp B            &kp N      &mt LEFT_SHIFT M  &mt RIGHT_ALT COMMA  &mt RIGHT_WIN PERIOD  &mt RCTRL KP_SLASH
+&ht LCTRL Z        &ht LEFT_WIN X  &mt LEFT_ALT C  &lt 5 V      &kp B            &kp N      &ht LEFT_SHIFT M  &ht RIGHT_ALT COMMA  &ht RIGHT_WIN PERIOD  &ht RCTRL NON_US_BACKSLASH
                                                    &lt LEF TAB  &kp BACKSPACE    &kp SPACE  &lt RIG ENTER
             >;
         };
