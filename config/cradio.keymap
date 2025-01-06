@@ -25,7 +25,7 @@
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
-            quick-tap-ms = <100>;
+            quick-tap-ms = <190>;
             bindings = <&kp>, <&kp>;
         };
 
@@ -106,10 +106,10 @@
 
         numbers {
             bindings = <
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH      &kp AT_SIGN           &kp PERCENT             &kp N6    &kp N7        &kp N8        &kp N9        &kp N0
-&kp QUESTION     &kp CAPS           &kp C_VOL_DN  &kp C_VOL_UP          &trans                  &kp LEFT  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS
-&trans           &trans             &trans        &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC    &kp N0    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &bootloader
-                                                  &trans                &trans                  &trans    &kp N0
+&kp EXCLAMATION  &kp LS(NUMBER_2)  &kp HASH      &kp RA(NUMBER_2)      &kp PERCENT             &kp N6    &kp N7        &kp N8        &kp N9        &kp N0
+&kp LS(MINUS)    &kp CAPS          &kp C_VOL_DN  &kp C_VOL_UP          &trans                  &kp LEFT  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS
+&trans           &trans            &trans        &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC    &kp N0    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &bootloader
+                                                 &trans                &trans                  &trans    &kp N0
             >;
         };
 
