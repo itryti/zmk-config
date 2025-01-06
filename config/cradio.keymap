@@ -24,9 +24,8 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <220>;
-            quick-tap-ms = <150>;
-            global-quick-tap;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <100>;
             bindings = <&kp>, <&kp>;
         };
 
@@ -44,6 +43,45 @@
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
+
+    combos {
+        compatible = "zmk,combos";
+
+        escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
+        };
+
+        caps_word {
+            bindings = <&caps_word>;
+            key-positions = <10 31 11>;
+        };
+
+        undo {
+            bindings = <&kp LC(Z)>;
+            key-positions = <20 31>;
+        };
+
+        aa {
+            bindings = <&kp LBRC>;
+            key-positions = <9 8>;
+        };
+
+        oe {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <7 8>;
+        };
+
+        ae {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <6 7>;
+        };
+
+        l_aa {
+            bindings = <&kp LBRC>;
+            key-positions = <31 11>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
