@@ -68,7 +68,7 @@
         };
 
         aa {
-            bindings = <&kp LBRC>;
+            bindings = <&kp LEFT_BRACKET>;
             key-positions = <9 8>;
         };
 
@@ -83,7 +83,7 @@
         };
 
         l_aa {
-            bindings = <&kp LBRC>;
+            bindings = <&kp LEFT_BRACKET>;
             key-positions = <31 11>;
         };
     };
@@ -111,10 +111,10 @@
 
         numbers {
             bindings = <
-&kp EXCLAMATION  &kp LS(N2)        &kp HASH      &kp RA(NUMBER_2)      &kp PERCENT             &kp N6    &kp N7        &kp N8        &kp N9        &kp N0
-&kp LS(MINUS)    &kp CAPS          &kp C_VOL_DN  &kp C_VOL_UP          &trans                  &kp LEFT  &kp N4  &kp N5        &kp N6  &kp PLUS
-&trans           &trans            &trans        &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC    &kp N0    &kp N1  &kp N2  &kp N3  &bootloader
-                                                 &trans                &trans                  &trans    &kp N0
+&kp EXCLAMATION  &kp LS(N2)  &kp HASH      &kp RA(NUMBER_2)      &kp PERCENT             &kp N6    &kp N7  &kp N8  &kp N9  &kp N0
+&kp LS(MINUS)    &kp CAPS    &kp C_VOL_DN  &kp C_VOL_UP          &trans                  &kp LEFT  &kp N4  &kp N5  &kp N6  &kp PLUS
+&trans           &trans      &trans        &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC    &kp N0    &kp N1  &kp N2  &kp N3  &bootloader
+                                           &trans                &trans                  &trans    &kp N0
             >;
         };
 
