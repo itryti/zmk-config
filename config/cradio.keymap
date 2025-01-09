@@ -15,131 +15,133 @@
 #define TRI 4
 #define MOUSE 5
 
-&lt { flavor = "hold-preferred"; };
+};
 
 / {
-    chosen { zmk,charmap = &charmap_us; };
 
-    behaviors {
-        ht: hold_tap {
-            label = "hold_tap";
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <200>;
-            quick-tap-ms = <150>;
-            bindings = <&kp>, <&kp>;
-        };
+chosen { zmk,charmap = &charmap_us; };
 
-        mmv {
-            acceleration-exponent = <1>;      // 1
-            time-to-max-speed-ms = <300>;    // 40
-            delay-ms = <0>;                   // 0
-        };
-
-        msc {
-            acceleration-exponent = <0>;      // 0
-            time-to-max-speed-ms = <40>;      // 500
-            delay-ms = <0>;                   // 10
-        };
+behaviors {
+    ht: hold_tap {
+        label = "hold_tap";
+        compatible = "zmk,behavior-hold-tap";
+        #binding-cells = <2>;
+        flavor = "tap-preferred";
+        tapping-term-ms = <200>;
+        quick-tap-ms = <150>;
+        bindings = <&kp>, <&kp>;
     };
 
-    conditional_layers { compatible = "zmk,conditional-layers"; };
-
-    combos {
-        compatible = "zmk,combos";
-
-        escape {
-            bindings = <&kp ESCAPE>;
-            key-positions = <0 1>;
-        };
-
-        caps_word {
-            bindings = <&caps_word>;
-            key-positions = <10 31 11>;
-        };
-
-        undo {
-            bindings = <&kp LC(Z)>;
-            key-positions = <20 31>;
-        };
-
-        aa {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <9 8>;
-        };
-
-        oe {
-            bindings = <&kp SEMICOLON>;
-            key-positions = <7 8>;
-        };
-
-        ae {
-            bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <6 7>;
-        };
-
-        l_aa {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <31 11>;
-        };
+    mmv {
+        acceleration-exponent = <1>;      // 1
+        time-to-max-speed-ms = <300>;    // 40
+        delay-ms = <0>;                   // 0
     };
 
-    keymap {
-        compatible = "zmk,keymap";
+    msc {
+        acceleration-exponent = <0>;      // 0
+        time-to-max-speed-ms = <40>;      // 500
+        delay-ms = <0>;                   // 10
+    };
+};
 
-        default_layer {
-            bindings = <
+conditional_layers { compatible = "zmk,conditional-layers"; };
+
+combos {
+    compatible = "zmk,combos";
+
+    escape {
+        bindings = <&kp ESCAPE>;
+        key-positions = <0 1>;
+    };
+
+    caps_word {
+        bindings = <&caps_word>;
+        key-positions = <10 31 11>;
+    };
+
+    undo {
+        bindings = <&kp LC(Z)>;
+        key-positions = <20 31>;
+    };
+
+    aa {
+        bindings = <&kp LEFT_BRACKET>;
+        key-positions = <9 8>;
+    };
+
+    oe {
+        bindings = <&kp SEMICOLON>;
+        key-positions = <7 8>;
+    };
+
+    ae {
+        bindings = <&kp SINGLE_QUOTE>;
+        key-positions = <6 7>;
+    };
+
+    l_aa {
+        bindings = <&kp LEFT_BRACKET>;
+        key-positions = <31 11>;
+    };
+};
+
+keymap {
+    compatible = "zmk,keymap";
+
+    default_layer {
+        bindings = <
 &kp Q              &kp W           &kp E           &kp R        &kp T            &kp Y      &kp U             &kp I                &kp O                 &kp P
 &ht RIGHT_SHIFT A  &kp S           &kp D           &lt 2 F      &kp G            &kp H      &kp J             &kp K                &kp L                 &lt 4 BSLH
 &ht LCTRL Z        &ht LEFT_WIN X  &ht LEFT_ALT C  &lt 5 V      &kp B            &kp N      &ht LEFT_SHIFT M  &ht RIGHT_ALT COMMA  &ht RIGHT_WIN PERIOD  &ht RCTRL SLASH
                                                    &lt LEF TAB  &kp BACKSPACE    &kp SPACE  &lt RIG ENTER
-            >;
-        };
+        >;
+    };
 
-        windows_layer {
-            bindings = <
+    windows_layer {
+        bindings = <
 &kp Q  &kp W       &kp E       &kp R        &kp T         &kp Y      &kp U        &kp I       &kp O       &kp P
 &kp A  &ht LALT S  &ht LGUI D  &ht LCTRL F  &kp G         &kp H      &ht RCTRL J  &ht RGUI K  &ht RALT L  &kp BSPC
 &kp Z  &kp X       &kp C       &kp V        &kp B         &kp N      &kp M        &kp COMMA   &kp DOT     &kp ENTER
                                &lt LEF TAB  &kp LSHIFT    &kp SPACE  &lt RIG TAB
-            >;
-        };
+        >;
+    };
 
-        numbers {
-            bindings = <
+    numbers {
+        bindings = <
 &kp EXCLAMATION  &kp LS(N2)  &kp HASH      &kp RA(NUMBER_2)      &kp PERCENT             &kp N6    &kp N7  &kp N8  &kp N9  &kp N0
 &kp PLUS         &kp CAPS    &kp C_VOL_DN  &kp C_VOL_UP          &trans                  &kp LEFT  &kp N4  &kp N5  &kp N6  &kp PLUS
 &trans           &trans      &trans        &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC    &kp N0    &kp N1  &kp N2  &kp N3  &bootloader
                                            &trans                &trans                  &trans    &kp N0
-            >;
-        };
+        >;
+    };
 
-        specialchars {
-            bindings = <
+    specialchars {
+        bindings = <
 &kp EXCL       &kp LS(N2)  &kp HASH  &kp RA(N2)  &kp PERCENT    &kp LS(N6)            &kp LS(N7)                &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
 &kp LS(MINUS)  &kp DOLLAR  &kp PIPE  &kp GRAVE   &trans         &trans                &trans                    &kp RA(N7)  &kp RA(N0)  &kp TILDE
 &trans         &trans      &trans    &kp DELETE  &trans         &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp RA(N8)  &kp RA(N9)  &trans
                                      &trans      &trans         &trans                &trans
-            >;
-        };
+        >;
+    };
 
-        nav {
-            bindings = <
+    nav {
+        bindings = <
 &trans  &trans  &trans  &trans  &trans    &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &trans
 &trans  &trans  &trans  &trans  &trans    &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
 &trans  &trans  &trans  &trans  &trans    &trans         &trans          &trans          &trans           &trans
                         &trans  &trans    &trans         &trans
-            >;
-        };
+        >;
+    };
 
-        function {
-            bindings = <
+    function {
+        bindings = <
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &kp F1  &kp F2   &kp F3   &kp F4
 &trans        &trans        &trans        &trans        &bt BT_CLR      &trans  &kp F5  &kp F6   &kp F7   &kp F8
 &trans        &trans        &trans        &trans        &bootloader     &trans  &kp F9  &kp F10  &kp F11  &kp F12
                                           &trans        &trans          &trans  &trans
-            >;
-        };
+        >;
     };
+};
+
 };
