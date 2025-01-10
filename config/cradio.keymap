@@ -17,7 +17,7 @@
 
 };
 
-/ {
+{
 
 chosen { zmk,charmap = &charmap_us; };
 
