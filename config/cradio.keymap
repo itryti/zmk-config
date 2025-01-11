@@ -129,7 +129,7 @@
 &kp EXCLAMATION  &kp LS(N2)  &kp HASH      &kp RA(NUMBER_2)      &kp PERCENT             &kp N6    &kp N7  &kp N8  &kp N9  &kp N0
 &kp PLUS         &kp CAPS    &kp C_VOL_DN  &kp C_VOL_UP          &trans                  &kp LEFT  &kp N4  &kp N5  &kp N6  &kp MINUS
 &trans           &trans      &trans        &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC    &kp N0    &kp N1  &kp N2  &kp N3  &bootloader
-                                           &trans                &trans                  &trans    &kp N0
+                                           &kp C_PLAY_PAUSE                &trans                  &trans    &kp N0
             >;
         };
 
@@ -138,7 +138,7 @@
 &kp EXCL       &kp LS(N2)  &kp HASH  &kp RA(N2)  &kp PERCENT    &kp LS(N6)            &kp LS(N7)                &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
 &kp LS(MINUS)  &kp PIPE  &kp GRAVE   &kp PLUS    &trans         &trans                &trans                    &kp RA(N7)  &kp RA(N0)  &kp RA(RBKT)
 &trans         &trans      &trans    &kp DELETE  &trans         &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp RA(N8)  &kp RA(N9)  &trans
-                                     &kp C_PLAY_PAUSE      &trans         &trans                &trans
+                                     &trans      &trans         &trans                &trans
             >;
         };
 
