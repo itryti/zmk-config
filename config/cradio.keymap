@@ -104,19 +104,19 @@
 
         default_layer {
             bindings = <
-&kp Q              &kp W           &kp E           &kp R        &kp T            &kp Y      &kp U             &kp I                &kp O                 &kp P
-&ht RIGHT_SHIFT A  &kp S           &kp D           &lt 2 F      &kp G            &kp H      &kp J             &kp K                &kp L                 &lt 4 BSLH
-&ht LCTRL Z        &ht LEFT_WIN X  &ht LEFT_ALT C  &lt 5 V      &kp B            &kp N      &ht LEFT_SHIFT M  &ht RIGHT_ALT COMMA  &ht RIGHT_WIN PERIOD  &ht RCTRL SLASH
-                                                   &lt LEF TAB  &kp BACKSPACE    &kp SPACE  &lt RIG ENTER
+&kp Q              &kp W           &kp E           &kp R      &kp T            &kp Y      &kp U             &kp I                &kp O                 &kp P
+&ht RIGHT_SHIFT A  &kp S           &kp D           &lt 2 F    &kp G            &kp H      &kp J             &kp K                &kp L                 &lt 4 BSLH
+&ht LCTRL Z        &ht LEFT_WIN X  &ht LEFT_ALT C  &lt 5 V    &kp B            &kp N      &ht LEFT_SHIFT M  &ht RIGHT_ALT COMMA  &ht RIGHT_WIN PERIOD  &ht RCTRL SLASH
+                                                   &lt 3 TAB  &kp BACKSPACE    &kp SPACE  &lt 2 ENTER
             >;
         };
 
-        windows_layer {
+        colemak_dh {
             bindings = <
-&kp Q  &kp W       &kp E       &kp R        &kp T         &kp Y      &kp U        &kp I       &kp O       &kp P
-&kp A  &ht LALT S  &ht LGUI D  &ht LCTRL F  &kp G         &kp H      &ht RCTRL J  &ht RGUI K  &ht RALT L  &kp BSPC
-&kp Z  &kp X       &kp C       &kp V        &kp B         &kp N      &kp M        &kp COMMA   &kp DOT     &kp ENTER
-                               &lt LEF TAB  &kp LSHIFT    &kp SPACE  &lt RIG TAB
+&kp Q              &kp W           &kp F           &kp P      &kp B            &kp J      &kp L        &kp U           &kp Y         &kp BSLH
+&ht RIGHT_SHIFT A  &kp R           &kp S           &lt 2 T    &kp G            &kp M      &kp N        &kp E           &kp I         &lt 4 O
+&ht LCTRL Z        &ht LEFT_WIN X  &ht LEFT_ALT C  &lt 5 D    &kp V            &kp K      &ht LSHFT H  &ht RALT COMMA  &ht RWIN DOT  &ht RCTRL FSLH
+                                                   &lt 3 TAB  &kp BACKSPACE    &kp SPACE  &lt 2 ENTER
             >;
         };
 
