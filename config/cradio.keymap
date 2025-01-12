@@ -151,8 +151,8 @@
 
         nav {
             bindings = <
-&trans  &mkp MB1        &mmv MOVE_UP    &mkp MB2         &msc C_AC_SCROLL_UP      &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &trans
-&trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc C_AC_SCROLL_DOWN    &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&trans  &mkp MB1        &mmv MOVE_UP    &mkp MB2         &msc SCRL_UP             &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &trans
+&trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN	          &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
 &trans  &trans          &trans          &trans           &trans                   &trans         &trans          &trans          &trans           &trans
                                         &trans           &trans                   &trans         &trans
             >;
