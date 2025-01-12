@@ -32,7 +32,7 @@
 
         sk {
             quick-release;
-        }
+        };
 
         mmv {
             acceleration-exponent = <1>;      // 1
