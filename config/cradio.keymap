@@ -16,6 +16,10 @@
 #define TRI 4
 #define MOUSE 5
 
+&sk {
+    quick-release;
+};
+
 / {
     chosen { zmk,charmap = &charmap_us; };
 
@@ -28,10 +32,6 @@
             tapping-term-ms = <200>;
             quick-tap-ms = <150>;
             bindings = <&kp>, <&kp>;
-        };
-
-        sk {
-            quick-release;
         };
 
         mmv {
