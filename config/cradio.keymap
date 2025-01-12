@@ -30,6 +30,10 @@
             bindings = <&kp>, <&kp>;
         };
 
+        sk {
+            quick-release;
+        }
+
         mmv {
             acceleration-exponent = <1>;      // 1
             time-to-max-speed-ms = <300>;    // 40
