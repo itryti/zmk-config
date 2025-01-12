@@ -16,6 +16,10 @@
 #define TRI 4
 #define MOUSE 5
 
+&sk {
+    quick-release;
+};
+
 / {
     chosen { zmk,charmap = &charmap_us; };
 
