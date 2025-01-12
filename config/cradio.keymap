@@ -16,10 +16,6 @@
 #define TRI 4
 #define MOUSE 5
 
-&sk {
-    quick-release;
-};
-
 / {
     chosen { zmk,charmap = &charmap_us; };
 
@@ -34,14 +30,8 @@
             bindings = <&kp>, <&kp>;
         };
 
-        tflt: tap_preferred_layer_tap {
-            label = "tap_preferred_layer_tap";
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <200>;
-            quick-tap-ms = <150>;
-            bindings = <&lt>, <&kp>;
+        sk {
+            quick-release;
         };
 
         mmv {
