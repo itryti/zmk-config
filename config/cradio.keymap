@@ -33,7 +33,7 @@
             bindings = <&kp>, <&kp>;
         };
 
-        tap_preferred_lt: hold_preferred_lt {
+        hold_preferred_lt: hold_preferred_lt {
             compatible = "zmk,behavior-hold-tap";
             label = "HOLD_PREFERRED_LT";
             bindings = <&mo>, <&kp>;
