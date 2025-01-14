@@ -131,11 +131,11 @@
             >;
         };
 
-        recurva {
+        colemak {
             bindings = <
-&kp F              &kp R           &kp D           &kp P      &kp V            &kp Q      &kp J        &kp U           &kp O         &kp Y
-&ht RIGHT_SHIFT S  &kp N           &kp T           &lt 2 C    &kp B            &kp BSLH   &kp H        &kp E           &kp A         &lt 4 I
-&ht LCTRL Z        &ht LEFT_WIN X  &ht LEFT_ALT K  &lt 5 G    &kp W            &kp M      &ht LSHFT L  &ht RIGHT_ALT COMMA  &ht RIGHT_WIN PERIOD  &ht RCTRL SLASH
+&kp Q              &kp W           &kp F           &kp P      &kp G            &kp J      &kp L        &kp U           &kp Y         &kp BSLH
+&ht RIGHT_SHIFT A  &kp R           &kp S           &lt 2 T    &kp D            &kp H   &kp N        &kp E           &kp I         &lt 4 O
+&ht LCTRL Z        &ht LEFT_WIN X  &ht LEFT_ALT C  &lt 5 V    &kp B            &kp K      &ht LSHFT M  &ht RIGHT_ALT COMMA  &ht RIGHT_WIN PERIOD  &ht RCTRL SLASH
                                                    &hold_preferred_lt 3 TAB    &kp BACKSPACE    &kp SPACE  &hold_preferred_lt 2 ENTER
             >;
         };
