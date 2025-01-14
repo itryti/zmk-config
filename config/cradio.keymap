@@ -131,12 +131,12 @@
             >;
         };
 
-        night {
+        recurva {
             bindings = <
-&kp B              &kp F           &kp L           &kp K      &kp Q            &kp P      &kp G        &kp O           &kp U         &kp DOT
-&ht RIGHT_SHIFT N  &kp S           &kp H           &lt 2 T    &kp M            &kp Y      &kp C        &kp A           &kp E         &lt 4 I
-&ht LCTRL X        &ht LEFT_WIN V  &ht LEFT_ALT J  &lt 5 D    &kp Z            &kp BSLH   &ht LSHFT W  &ht RALT FSLH  &ht RWIN TAB  &ht RCTRL COMMA
-                                                   &lt 3 R    &kp BACKSPACE    &kp SPACE  &lt 2 ENTER
+&kp F              &kp R           &kp D           &kp P      &kp V            &kp Q      &kp J        &kp U           &kp O         &kp Y
+&ht RIGHT_SHIFT S  &kp N           &kp F           &lt 2 C    &kp B            &kp BSLH   &kp H        &kp E           &kp A         &lt 4 I
+&ht LCTRL Z        &ht LEFT_WIN X  &ht LEFT_ALT K  &lt 5 G    &kp W            &kp M      &ht LSHFT L  &ht RIGHT_ALT COMMA  &ht RIGHT_WIN PERIOD  &ht RCTRL SLASH
+                                                   &hold_preferred_lt 3 TAB    &kp BACKSPACE    &kp SPACE  &hold_preferred_lt 2 ENTER
             >;
         };
 
