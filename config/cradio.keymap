@@ -131,12 +131,12 @@
             >;
         };
 
-        colemak_dh {
+        night {
             bindings = <
-&kp Q              &kp W           &kp F           &kp P      &kp B            &kp J      &kp L        &kp U           &kp Y         &kp BSLH
-&ht RIGHT_SHIFT A  &kp R           &kp S           &lt 2 T    &kp G            &kp M      &kp N        &kp E           &kp I         &lt 4 O
-&ht LCTRL Z        &ht LEFT_WIN X  &ht LEFT_ALT C  &lt 5 D    &kp V            &kp K      &ht LSHFT H  &ht RALT COMMA  &ht RWIN DOT  &ht RCTRL FSLH
-                                                   &lt 3 TAB  &kp BACKSPACE    &kp SPACE  &lt 2 ENTER
+&kp B              &kp F           &kp L           &kp K      &kp Q            &kp P      &kp G        &kp O           &kp U         &kp DOT
+&ht RIGHT_SHIFT N  &kp S           &kp H           &lt 2 T    &kp M            &kp Y      &kp C        &kp A           &kp E         &lt 4 I
+&ht LCTRL X        &ht LEFT_WIN V  &ht LEFT_ALT J  &lt 5 D    &kp Z            &kp BSLH   &ht LSHFT W  &ht RALT FSLH  &ht RWIN TAB  &ht RCTRL COMMA
+                                                   &lt 3 R    &kp BACKSPACE    &kp SPACE  &lt 2 ENTER
             >;
         };
 
