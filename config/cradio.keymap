@@ -127,9 +127,9 @@
 
         default_layer {
             bindings = <
-&kp Q                       &kp W           &kp E           &kp R                          &kp T            &kp Y      &kp U            &kp I            &kp O                 &kp P
-&ht RIGHT_SHIFT A           &kp S           &kp D           &lt 2 F                        &kp G            &kp H      &kp J &kp K      &kp L       &lt 4 BSLH
-&hold_preferred_ht LCTRL Z  &ht LEFT_WIN X  &ht LEFT_ALT C  &lt 5 V  &kp B                 &kp N            &ht LEFT_SHIFT  M      &ht RIGHT_ALT COMMA        &ht RIGHT_WIN PERIOD            &ht RCTRL  SLASH
+&kp Q               &kp W           &kp E           &kp R                          &kp T            &kp Y      &kp U            &kp I            &kp O                 &kp P
+&ht RIGHT_SHIFT A   &kp S           &kp D           &lt 2 F                        &kp G            &kp H      &kp J &kp K      &kp L       &lt 4 BSLH
+&ht LCTRL Z         &ht LEFT_WIN X  &ht LEFT_ALT C  &lt 5 V  &kp B                 &kp N            &ht LEFT_SHIFT  M      &ht RIGHT_ALT COMMA        &ht RIGHT_WIN PERIOD            &ht RCTRL SLASH
                                                    &hold_preferred_lt 3 TAB                &kp BACKSPACE    &kp SPACE  &hold_preferred_lt 2 ENTER
             >;
         };
@@ -137,8 +137,8 @@
         colemakdh {
             bindings = <
 &kp Q              &kp W           &kp F           &kp P           &kp B        &kp J      &kp L                 &kp U           &kp Y               &kp BSLH
-&ht RIGHT_SHIFT A  &kp R           &kp S           &lt 2 T         &kp G        &kp M      &ht LEFT_SHIFT N      &ht RCTRL E     &ht RIGHT_ALT I     &lt 4 O
-&hold_preferred_lt LCTRL Z         &ht LEFT_WIN X  &ht LEFT_ALT C  &lt 5 D      &kp V      &kp K                 &kp H           &kp COMMA        &kp PERIOD            &kp SLASH
+&ht RIGHT_SHIFT A  &kp R           &kp S           &lt 2 T         &kp G        &kp M      &kp N      &kp E     &kp I     &lt 4 O
+&ht LCTRL Z         &ht LEFT_WIN X  &ht LEFT_ALT C  &lt 5 D      &kp V      &kp K                 &ht LEFT_SHIFT H           &ht RCTRL COMMA        &ht RIGHT_WIN PERIOD            &ht RCTRL  SLASH
                                                    &hold_preferred_lt 3 TAB    &kp BACKSPACE    &kp SPACE  &hold_preferred_lt 2 ENTER
             >;
         };
